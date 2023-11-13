@@ -8,11 +8,6 @@
 
 <br>
 
-## Contact Developer
-💎 Telegram: https://t.me/DevAMiR
-
-<br>
-
 # Supported Panels
 - (Niduka Akalanka)
 ````
@@ -30,3 +25,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/alireza0/x-ui/master/install.s
 ````
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ````
+
+<br>
+
+## Contact Developer
+💎 Telegram: https://t.me/DevAMiR
