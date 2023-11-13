@@ -8,6 +8,11 @@
 
 <br>
 
+## Contact Developer
+💎 Telegram: https://t.me/DevAMiR
+
+<br>
+
 # Supported Panels
 - (Niduka Akalanka)
 ````
