@@ -8,6 +8,12 @@
 
 <br>
 
+# Requirement
+• PHP 7.4
+• extensions » http, intl, fileinfo
+
+<br>
+
 # Supported Panels
 - (Niduka Akalanka)
 ````
