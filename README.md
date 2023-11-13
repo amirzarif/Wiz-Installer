@@ -2,7 +2,7 @@
   <a href="https://github.com/amirzarif/Wiz-Installer" target="_blank" rel="noopener noreferrer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/amirzarif/Wiz-Installer/blob/main/bot/assets/logo.png">
-      <img width="200" height="200" src="https://github.com/amirzarif/Wiz-Installer/blob/main/bot/assets/logo.png">
+      <img width="100" height="100" src="https://github.com/amirzarif/Wiz-Installer/blob/main/bot/assets/logo.png">
     </picture>
   </a>
 </p> 
