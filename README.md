@@ -1,12 +1,3 @@
-<p align="center">
-  <a href="https://github.com/amirzarif/Wiz-Installer" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/amirzarif/Wiz-Installer/blob/main/bot/assets/logo.png">
-      <img width="100" height="100" src="https://github.com/amirzarif/Wiz-Installer/blob/main/bot/assets/logo.png">
-    </picture>
-  </a>
-</p>
-
 # Wiz-Installer
  An easy installation package to install WizWiz telegram bot and Web Panel without any hassle and technical knowledge on the host.. :)))
 
