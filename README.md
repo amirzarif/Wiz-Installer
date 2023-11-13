@@ -7,8 +7,6 @@
   </a>
 </p>
 
-<h1 align="center"/>Welcome to Wiz Installer</h1>
-
 # Wiz-Installer
  An easy installation package to install WizWiz telegram bot and Web Panel without any hassle and technical knowledge on the host.. :)))
 
