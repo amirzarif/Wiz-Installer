@@ -10,6 +10,7 @@
 
 # Requirement
 • PHP 7.4
+<br>
 • extensions » http, intl, fileinfo
 
 <br>
