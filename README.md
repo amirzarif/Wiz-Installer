@@ -9,9 +9,9 @@
 <br>
 
 # Requirement
-• PHP 7.4
-<br>
 • extensions » http, intl, fileinfo
+<br>
+• suggestion version 7.4 PHP
 
 <br>
 
