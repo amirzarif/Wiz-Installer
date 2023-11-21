@@ -1728,7 +1728,7 @@ function getUserOrderDetailKeys($id){
         $server_info = $stmt->get_result()->fetch_assoc();
         $stmt->close();
         
-        $subLink = $botState['subLinkState']=="on"?"<code>" . $botUrl . "settings/subLink.php?token=" . $token . "</code>":"";
+        $subLink = $botState['subLinkState']=="on"?"<code>" . $botUrl . "/bot/settings/subLink.php?token=" . $token . "</code>":"";
 
         
         $enable = $enable == true? $buttonValues['active']:$buttonValues['deactive'];
@@ -2085,7 +2085,7 @@ function getOrderDetailKeys($from_id, $id){
         $server_info = $stmt->get_result()->fetch_assoc();
         $stmt->close();
         
-        $subLink = $botState['subLinkState']=="on"?"<code>" . $botUrl . "settings/subLink.php?token=" . $token . "</code>":"";
+        $subLink = $botState['subLinkState']=="on"?"<code>" . $botUrl . "/bot/settings/subLink.php?token=" . $token . "</code>":"";
 
         $enable = $enable == true? $buttonValues['active']:$buttonValues['deactive'];
         $msg = str_replace(['STATE', 'NAME','CONNECT-LINK', 'SUB-LINK'], [$enable, $remark, $configLinks, $subLink], $mainValues['config_details_message']);

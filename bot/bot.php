@@ -1364,7 +1364,7 @@ if(preg_match('/^createAccAmount(\d+)_(\d+)_(\d+)/',$userInfo['step'], $match) &
         }
     
         $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
-        $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+        $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
         foreach($vraylink as $vray_link){
             $acc_text = "
     
@@ -1768,7 +1768,7 @@ if(preg_match('/havePaiedWeSwap(.*)/',$data,$match)) {
         }
         
         $token = RandomString(30);
-        $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+        $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
 
         $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
         foreach($vraylink as $vray_link){
@@ -2927,7 +2927,7 @@ if(preg_match('/payCustomWithWallet(.*)/',$data, $match)){
     $stmt->execute();
     include 'phpqrcode/qrlib.php';
     $token = RandomString(30);
-    $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+    $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
 
     $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
     delMessage();
@@ -3027,7 +3027,7 @@ if(preg_match('/^showQr(Sub|Config)(\d+)/',$data,$match)){
     define('IMAGE_WIDTH',540);
     define('IMAGE_HEIGHT',540);
     if($match[1] == "Sub"){
-        $subLink = $botUrl . "settings/subLink.php?token=" . $order['token'];
+        $subLink = $botUrl . "/bot/settings/subLink.php?token=" . $order['token'];
         $file = RandomString() .".png";
         $ecc = 'L';
         $pixel_Size = 11;
@@ -3305,7 +3305,7 @@ if(preg_match('/accCustom(.*)/',$data, $match) and $text != $buttonValues['cance
     
     include 'phpqrcode/qrlib.php';
     $token = RandomString(30);
-    $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+    $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
 
     $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id);
     define('IMAGE_WIDTH',540);
@@ -3594,7 +3594,7 @@ if(preg_match('/payWithWallet(.*)/',$data, $match)){
         
         
             $token = RandomString(30);
-            $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+            $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
 
             $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
             foreach($vraylink as $vray_link){
@@ -4092,7 +4092,7 @@ if(preg_match('/accept(.*)/',$data, $match) and $text != $buttonValues['cancel']
             }
                 
             $token = RandomString(30);
-            $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+            $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
     
             $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
             foreach($vraylink as $vray_link){
@@ -5532,7 +5532,7 @@ if(preg_match('/freeTrial(\d+)/',$data,$match)) {
     $vraylink = getConnectionLink($server_id, $uniqid, $protocol, $remark, $port, $netType, $inbound_id, $rahgozar, $customPath, $customPort, $customSni);
 	include 'phpqrcode/qrlib.php';
     $token = RandomString(30);
-    $subLink = $botState['subLinkState']=="on"?$botUrl . "settings/subLink.php?token=" . $token:"";
+    $subLink = $botState['subLinkState']=="on"?$botUrl . "/bot/settings/subLink.php?token=" . $token:"";
     define('IMAGE_WIDTH',540);
     define('IMAGE_HEIGHT',540);
     foreach($vraylink as $vray_link){
